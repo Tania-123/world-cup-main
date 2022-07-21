@@ -289,6 +289,25 @@ footer .foot{
         display: inline-block;
       }
     }
+    .social-icons {
+        display: inline;
+       }
+       .social-icons a i {
+         width: 32px;
+         height: 32px;
+         line-height: 32px;
+         border-radius: 50%;
+         color: #969bab;
+         background-color: #e7e7e8;
+         margin: 10px 5px;
+       }
+       .rightSectionBar{
+        grid-template-columns: repeat(2,1fr);
+        width: 100%;
+        margin-left: 20px;
+    }
+ 
+     
 @media screen and (min-width:577px) and (max-width:992px) {
     .header {
         width: 80%;
@@ -333,6 +352,11 @@ footer .foot{
         width: 100%;
         margin-left: 20px;
     }
+    .rightSectionBar{
+        grid-template-columns: repeat(2,1fr);
+        width: 100%;
+        margin-left: 20px;
+    }
     .view{
         background-color: #DD0000;
         color: white;
@@ -346,6 +370,7 @@ footer .foot{
     }
     footer{
         height: 370px;
+        size: 465px;
       }
      .end{
         display: flex;
