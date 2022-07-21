@@ -238,6 +238,18 @@ footer .foot{
     color: gray;
     padding: 5px 50px;
 }
+.social-icons {
+    display: inline;
+   }
+   .social-icons a i {
+     width: 32px;
+     height: 32px;
+     line-height: 32px;
+     border-radius: 50%;
+     color: #969bab;
+     background-color: #e7e7e8;
+     margin: 10px 5px;
+   }
 /* media query for mobile  */
 @media screen and (max-width:576px) {
     .header {
